@@ -18,11 +18,9 @@ const SocialLinks = () => {
     <div className='links-section-container'>
       <h3>Social Media</h3>
       {socialLink.map((link) => (
-        <div className='activitiesItem' key={link.id}>
-          <a className='buttons-item' href={link.link}>
-            {link.name}
-          </a>
-        </div>
+        <a className='buttons-item' href={link.link} key={link.name}>
+          {link.name}
+        </a>
       ))}
     </div>
   );

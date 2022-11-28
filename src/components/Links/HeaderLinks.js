@@ -1,4 +1,3 @@
-import "./Links.css";
 const HeaderLinks = () => {
   return (
     <div className='header-container'>
