@@ -1,3 +1,4 @@
+/*Styles for buttons*/
 .container-buttons {
   display: flex;
   flex-direction: row;
@@ -12,14 +13,14 @@
   border-radius: 2px;
   font-weight: bold;
   border: 1px solid #fff;
-  transition: background 0.3s ease;
+  transition: 0.3s ease;
   text-decoration: none;
   opacity: 0.9;
   font-family: "Roboto", sans-serif;
 }
 
 .container-buttons-btn-gradient:hover {
-  border: 1px solid #ea515b;
+  border: 1px solid #ead430;
   opacity: 1;
 }
 
@@ -32,6 +33,17 @@
   font-weight: bold;
   transition: background 0.3s ease;
   text-decoration: none;
-  border: 1.5px solid #ea515b;
+  border: 2px solid #ead430;
   opacity: 1;
+}
+/*styles for text jobs*/
+.jobs-text-container {
+  color: #fff;
+  text-align: left;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.jobs-text-title-center {
+  text-align: center;
 }
