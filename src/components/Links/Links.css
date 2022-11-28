@@ -46,6 +46,12 @@ body {
   cursor: pointer;
 }
 
+@media (max-width: 600px) {
+  .buttons-item {
+    width: 70%;
+  }
+}
+
 footer {
   text-align: center;
   color: #fff;

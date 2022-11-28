@@ -1,30 +1,23 @@
-import React, { useState, useEffect } from "react";
-import { collection, onSnapshot } from "firebase/firestore";
-import { db } from "../Firebase/Firebase";
+import { dataContext } from "../Context/DataContext";
+import { useContext } from "react";
+import { Link } from "react-router-dom";
 
 const JobsLinks = () => {
-  const [jobsLink, setJobsLink] = useState([]);
-  useEffect(() => {
-    onSnapshot(collection(db, "jobsLinks"), (querySnapshot) => {
-      const jobsLinks = [];
-      querySnapshot.forEach((doc) => {
-        jobsLinks.push({ ...doc.data() });
+  const { clickedMentoring, setclickedMentoring, handleMentoring } = useContext(dataContext);
 
-        setJobsLink(jobsLinks);
-      });
-    });
-  }, []);
   return (
     <div className='links-section-container'>
       <div className='links-section-text-container'>
         <h2>Consulting & Freelancer</h2>
         <p>I offer project consultations and I work as a freelance web developer.</p>
       </div>
-      {jobsLink.map((link) => (
-        <a className='buttons-item' key={link.name}>
-          {link.name}
-        </a>
-      ))}
+      <a className='buttons-item'>Get me as a Freelancer</a>
+      <Link to={"/Mentoring&Freelancer"} className='buttons-item'>
+        Mentoring and Consulting
+      </Link>
+      <a className='buttons-item' href='mailto:pab.michelini@gmail.com'>
+        Send me an email
+      </a>
     </div>
   );
 };
