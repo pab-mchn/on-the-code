@@ -4,7 +4,12 @@ import DonateLinks from "./DonateLinks";
 import JobsLinks from "./JobsLinks";
 
 const HomeLinks = () => {
-  return <HeaderLinks />;
+  return (
+    <>
+      <HeaderLinks />
+      <SocialLinks />
+    </>
+  );
 };
 
 export default HomeLinks;

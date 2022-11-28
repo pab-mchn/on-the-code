@@ -14,3 +14,33 @@ body {
   height: 200px;
   width: 200px;
 }
+
+.links-section-container {
+  text-align: center;
+  color: white;
+  margin-top: 25px;
+}
+
+.buttons-item {
+  display: inline-block;
+  color: #fff;
+  padding: 14px 24px;
+  background: #ead430;
+  transition: 0.3s ease;
+  text-decoration: none;
+  border: none;
+  font-size: 20px;
+  margin-top: 10px;
+  width: 50%;
+}
+.buttons-item:hover {
+  background: #fcde00;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+  height: 12vh;
+  margin-top: 12vh;
+}
