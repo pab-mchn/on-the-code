@@ -16,8 +16,10 @@ const JobsLinks = () => {
   }, []);
   return (
     <div className='links-section-container'>
-      <h3>Consulting & Freelancer</h3>
-      <p>I offer project consultations and I work as a freelance web developer.</p>
+      <div className='links-section-text-container'>
+        <h2>Consulting & Freelancer</h2>
+        <p>I offer project consultations and I work as a freelance web developer.</p>
+      </div>
       {jobsLink.map((link) => (
         <a className='buttons-item' key={link.name}>
           {link.name}

@@ -16,8 +16,10 @@ const DonateLinks = () => {
   }, []);
   return (
     <div className='links-section-container'>
-      <h3>Ko-fi & Cafecito</h3>
-      <p>If you want, you can invite me to a coffee ☕😍</p>
+      <div className='links-section-text-container'>
+        <h2>Ko-fi & Cafecito</h2>
+        <p>If you want, you can invite me to a coffee ☕😍</p>
+      </div>
       {donateLink.map((link) => (
         <a className='buttons-item' href={link.link} key={link.name}>
           {link.name}
