@@ -3,8 +3,18 @@
   flex-direction: row;
   justify-content: flex-end;
   margin: 10px 10px 0 0;
+  font-family: "Special Elite", cursive;
+  color: #fff;
 }
 .language-buttons-container > span {
   cursor: pointer;
   margin: 8px;
+}
+
+.language-buttons-items {
+  color: #fff;
+}
+
+.pressed-language-buttons {
+  color: #ead430;
 }

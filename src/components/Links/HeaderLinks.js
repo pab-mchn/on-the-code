@@ -11,9 +11,15 @@ const HeaderLinks = () => {
       />
       <h1>on the code</h1>
       {language === "true" ? (
-        <p>Hola, en este lugar podes encontrar todos mis links!</p>
+        <>
+          <p>Hola! me llamo Pablo, soy desarrollador web y creador de contenido </p>
+          <p>En este lugar podes encontrar todos mis links!</p>
+        </>
       ) : (
-        <p>Hi, you can find here all my links!</p>
+        <>
+          <p>Hi! my name is Pablo, I am a Web Developer and Content Creator</p>
+          <p>Here you can find all my links!</p>
+        </>
       )}
     </div>
   );

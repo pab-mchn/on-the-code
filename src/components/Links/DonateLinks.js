@@ -13,10 +13,10 @@ const DonateLinks = () => {
           <p>If you want, you can invite me for a coffee to help me to continue creating content ☕😍</p>
         )}
       </div>
-      <a className='buttons-item' href='https://ko-fi.com/onthecode'>
+      <a className='buttons-item' href='https://ko-fi.com/onthecode' target='_blank' rel='noreferrer'>
         Ko-fi app - Paypal
       </a>
-      <a className='buttons-item' href='https://cafecito.app/onthecode'>
+      <a className='buttons-item' href='https://cafecito.app/onthecode' target='_blank' rel='noreferrer'>
         Cafecito app - Mercado Pago
       </a>
     </div>

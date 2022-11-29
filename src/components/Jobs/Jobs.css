@@ -9,13 +9,13 @@
   color: #fff;
   background-color: #191919;
   margin: 15px;
-  padding: 10px 26px;
+  padding: 14px 30px;
   border-radius: 2px;
-  font-weight: bold;
   border: 1px solid #fff;
   transition: 0.3s ease;
   text-decoration: none;
   opacity: 0.9;
+  font-weight: bold;
   font-family: "Special Elite", cursive;
 }
 
@@ -25,17 +25,17 @@
   cursor: pointer;
 }
 
-.pressed-buttons {
+.pressed-jobs-buttons {
   color: #fff;
   background-color: #191919;
   margin: 15px;
-  padding: 10px 26px;
+  padding: 14px 30px;
   border-radius: 2px;
-  font-weight: bold;
-  transition: background 0.3s ease;
+  transition: 0.3s ease;
   text-decoration: none;
   border: 2px solid #ead430;
   opacity: 1;
+  font-weight: bold;
   font-family: "Special Elite", cursive;
 }
 
@@ -50,6 +50,9 @@
 .jobs-text-title-center {
   text-align: center;
 }
-span {
+.jobs-text-freelancer-container {
+  margin-top: 50px;
+}
+.jobs-text-important {
   color: #ead430;
 }

@@ -4,11 +4,19 @@ import { dataContext } from "../Context/DataContext";
 import "./LanguageButtons.css";
 
 const LanguageButtons = () => {
-  const { handleLanguageEn, handleLanguageEs } = useContext(dataContext);
+  const { handleLanguageEn, handleLanguageEs, language } = useContext(dataContext);
   return (
     <div className='language-buttons-container'>
-      <span onClick={handleLanguageEs}>Es</span>
-      <span onClick={handleLanguageEn}>En</span>
+      <span
+        onClick={handleLanguageEs}
+        className={language === "true" ? "pressed-language-buttons" : "language-buttons-items"}>
+        Es
+      </span>
+      <span
+        className={language === "false" ? "pressed-language-buttons" : "language-buttons-items "}
+        onClick={handleLanguageEn}>
+        En
+      </span>
     </div>
   );
 };
