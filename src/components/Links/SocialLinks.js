@@ -1,28 +1,20 @@
-import React, { useState, useEffect } from "react";
-import { collection, onSnapshot } from "firebase/firestore";
-import { db } from "../Firebase/Firebase";
+import { useContext } from "react";
+import { dataContext } from "../Context/DataContext";
 
 const SocialLinks = () => {
-  const [socialLink, setsocialLink] = useState([]);
-  useEffect(() => {
-    onSnapshot(collection(db, "socialLinks"), (querySnapshot) => {
-      const socialLinks = [];
-      querySnapshot.forEach((doc) => {
-        socialLinks.push({ ...doc.data() });
-
-        setsocialLink(socialLinks);
-      });
-    });
-  }, []);
+  const { language } = useContext(dataContext);
   return (
     <div className='links-section-container'>
-      <h2>Social Media</h2>
-
-      {socialLink.map((link) => (
-        <a className='buttons-item' href={link.link} key={link.name}>
-          {link.name}
-        </a>
-      ))}
+      {language === "true" ? <h2>Mis redes sociales</h2> : <h2> My Social Media</h2>}
+      <a className='buttons-item' href='https://www.youtube.com/channel/UCrP5xPLzqW3k6ssG8C7lHVw'>
+        Youtube
+      </a>
+      <a className='buttons-item' href='https://www.instagram.com/onthecodenow/?next=%2F'>
+        Instagram
+      </a>
+      <a className='buttons-item' href='https://github.com/pab-mchn'>
+        Github
+      </a>
     </div>
   );
 };

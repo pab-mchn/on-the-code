@@ -16,12 +16,13 @@
   transition: 0.3s ease;
   text-decoration: none;
   opacity: 0.9;
-  font-family: "Roboto", sans-serif;
+  font-family: "Special Elite", cursive;
 }
 
 .container-buttons-btn-gradient:hover {
   border: 1px solid #ead430;
   opacity: 1;
+  cursor: pointer;
 }
 
 .pressed-buttons {
@@ -35,7 +36,9 @@
   text-decoration: none;
   border: 2px solid #ead430;
   opacity: 1;
+  font-family: "Special Elite", cursive;
 }
+
 /*styles for text jobs*/
 .jobs-text-container {
   color: #fff;
@@ -46,4 +49,7 @@
 
 .jobs-text-title-center {
   text-align: center;
+}
+span {
+  color: #ead430;
 }

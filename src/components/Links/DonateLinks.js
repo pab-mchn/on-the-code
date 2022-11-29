@@ -1,30 +1,24 @@
-import React, { useState, useEffect } from "react";
-import { collection, onSnapshot } from "firebase/firestore";
-import { db } from "../Firebase/Firebase";
+import { useContext } from "react";
+import { dataContext } from "../Context/DataContext";
 
 const DonateLinks = () => {
-  const [donateLink, setDonateLink] = useState([]);
-  useEffect(() => {
-    onSnapshot(collection(db, "donateLinks"), (querySnapshot) => {
-      const donateLinks = [];
-      querySnapshot.forEach((doc) => {
-        donateLinks.push({ ...doc.data() });
-
-        setDonateLink(donateLinks);
-      });
-    });
-  }, []);
+  const { language } = useContext(dataContext);
   return (
     <div className='links-section-container'>
       <div className='links-section-text-container'>
         <h2>Ko-fi & Cafecito</h2>
-        <p>If you want, you can invite me to a coffee ☕😍</p>
+        {language === "true" ? (
+          <p>Si lo deseas, puedes invitarme a un cafecito para apoyudarme a seguir creando contenido ☕😍</p>
+        ) : (
+          <p>If you want, you can invite me for a coffee to help me to continue creating content ☕😍</p>
+        )}
       </div>
-      {donateLink.map((link) => (
-        <a className='buttons-item' href={link.link} key={link.name}>
-          {link.name}
-        </a>
-      ))}
+      <a className='buttons-item' href='https://ko-fi.com/onthecode'>
+        Ko-fi app - Paypal
+      </a>
+      <a className='buttons-item' href='https://cafecito.app/onthecode'>
+        Cafecito app - Mercado Pago
+      </a>
     </div>
   );
 };

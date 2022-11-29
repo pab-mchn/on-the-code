@@ -3,19 +3,23 @@ import { dataContext } from "../Context/DataContext";
 import Mentoring from "../Jobs/Mentoring";
 import Freelancer from "../Jobs/Freelancer";
 import Banner from "../Banner/Banner";
+import FooterLinks from "../Links/FooterLinks";
 
 import "./Jobs.css";
 
 const Jobs = () => {
-  const { clickedMentoring, clickedFreelancer, handleMentoring, handleFreelancer } = useContext(dataContext);
+  const { clickedMentoring, clickedFreelancer, handleMentoring, handleFreelancer, optionChosed } = useContext(
+    dataContext
+  );
   return (
     <>
       <Banner />
+      {optionChosed === "true" && <h2 className='jobs-text-container'>¿Mentor or Freelancer?</h2>}
       <div className='container-buttons'>
         <button
           onClick={handleMentoring}
           className={clickedMentoring === "true" ? "pressed-buttons" : "container-buttons-btn-gradient"}>
-          Get Consulting & Mentoring
+          Get me as a Mentor
         </button>
         <button
           onClick={handleFreelancer}
@@ -23,7 +27,9 @@ const Jobs = () => {
           Get me as a Freelancer
         </button>
       </div>
-      {clickedMentoring === "true" ? <Mentoring /> : <Freelancer />}
+      {clickedMentoring === "true" && <Mentoring />}
+      {clickedFreelancer === "true" && <Freelancer />}
+      <FooterLinks />
     </>
   );
 };

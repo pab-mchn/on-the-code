@@ -1,4 +1,8 @@
+import { useState, useContext } from "react";
+import { dataContext } from "../Context/DataContext";
+
 const HeaderLinks = () => {
+  const { language } = useContext(dataContext);
   return (
     <div className='header-container'>
       <img
@@ -6,7 +10,11 @@ const HeaderLinks = () => {
         alt='profile-image'
       />
       <h1>on the code</h1>
-      <p>Hi, you can find here all my links!</p>
+      {language === "true" ? (
+        <p>Hola, en este lugar podes encontrar todos mis links!</p>
+      ) : (
+        <p>Hi, you can find here all my links!</p>
+      )}
     </div>
   );
 };
