@@ -13,19 +13,19 @@ const Mentoring = () => {
             migo para conversar a fondo sobre tu código.
           </p>
           <h3 className='jobs-text-title-center'>¿Como funciona?</h3>
-          <h4>Parte uno:</h4>
+          <h4>Parte uno: charla general</h4>
           <p>
             Primero coordinamos una reunión de 30 minutos mediante google meet. Ahí hablaremos sobre tu proyecto y sobre
             lo que estés buscando alcanzar con el. Conversaremos de manera global sobre distintos caminos y formas de
-            lograr tus objetivos, te brindare algunos consejos con el fin de orientarte sobre como seguir avanazando .
-            Es una charla informal para conocernos, charlar sobre tecnología y sobre tu código.
+            lograr tus objetivos, te brindare algunos consejos con el fin de orientarte sobre como seguir avanazando. Es
+            una charla informal para conocernos, charlar sobre tecnología y sobre tu código.
           </p>
           <p>
             🔊 Esta parte se trata de una charla general en donde voy aconsejarte, orientarte y ayudarte a despejar
             dudas generales sobre tu proyecto.
           </p>
           <p>❌ En esta parte no resolvermos bugs en el código ni se trabajará en agregar nueva funcionalidad.</p>
-          <h4>Parte dos:</h4>
+          <h4>Parte dos: clase privada</h4>
           <p>
             En caso de que quieras seguir avanzando en la mentoría con mayor profundidad podemos avanzar en una segunda
             etapa. Esta parte solo se va a dar en caso de que se cumplan las siguientes dos cosas:
@@ -39,8 +39,8 @@ const Mentoring = () => {
             trabajo a realizar y distintas variables en relación a tiempo/trabajo.
           </p>
           <p>
-            Si avanzamos con esto te voy a pedir envíes tu código, y dentro de un a acordar trabajaré en él, luego de
-            este plazo coordinaremos otra llamada con la intención de explicarte paso a paso que es lo que hice, se
+            Si avanzamos con esto te voy a pedir envíes tu código, y dentro de un plazo a acordar trabajaré en él, luego
+            de este plazo coordinaremos otra llamada con la intención de explicarte paso a paso que es lo que hice, se
             trata de una clase privada en relación a tu código para que puedas comprender y seguir avanzando en tu
             proyecto.
           </p>
