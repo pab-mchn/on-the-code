@@ -12,7 +12,11 @@ const Freelancer = () => {
             <h4>Para contactarme puedes:</h4>
             <p>
               Agendar una reunion directamente en este{" "}
-              <a className='jobs-text-important' href='https://calendly.com/on-the-code/freelancer'>
+              <a
+                className='jobs-text-important'
+                href='https://calendly.com/on-the-code/freelancer'
+                target='_blank'
+                rel='noreferrer'>
                 Calendario
               </a>
             </p>
@@ -32,7 +36,11 @@ const Freelancer = () => {
             <h4>To contact me you can:</h4>
             <p>
               Schedule a meeting directly on this{" "}
-              <a className='jobs-text-important' href='https://calendly.com/on-the-code/freelancer'>
+              <a
+                className='jobs-text-important'
+                href='https://calendly.com/on-the-code/freelancer'
+                target='_blank'
+                rel='noreferrer'>
                 Calendar
               </a>
             </p>

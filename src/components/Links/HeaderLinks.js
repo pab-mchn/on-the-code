@@ -13,7 +13,7 @@ const HeaderLinks = () => {
       {language === "true" ? (
         <>
           <p>Hola! me llamo Pablo, soy desarrollador web y creador de contenido </p>
-          <p>En este lugar podes encontrar todos mis links!</p>
+          <p>En este lugar puedes encontrar todos mis links!</p>
         </>
       ) : (
         <>

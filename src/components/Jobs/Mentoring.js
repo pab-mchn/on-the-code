@@ -18,7 +18,7 @@ const Mentoring = () => {
             Primero coordinamos una reunión de 30 minutos mediante google meet. Ahí hablaremos sobre tu proyecto y sobre
             lo que estés buscando alcanzar con el. Conversaremos de manera global sobre distintos caminos y formas de
             lograr tus objetivos, te brindare algunos consejos con el fin de orientarte sobre como seguir avanazando .
-            Es una charla informal para conocernos charlar sobre tecnología y sobre tu código.
+            Es una charla informal para conocernos, charlar sobre tecnología y sobre tu código.
           </p>
           <p>
             🔊 Esta parte se trata de una charla general en donde voy aconsejarte, orientarte y ayudarte a despejar
@@ -39,27 +39,42 @@ const Mentoring = () => {
             trabajo a realizar y distintas variables en relación a tiempo/trabajo.
           </p>
           <p>
-            Si avanzamos con esto te voy a pedir envíes tu código, y dentro de un plazo de una semana trabajaré en él,
-            luego de este plazo coordinaremos otra llamada con la intención de explicarte paso a paso que es lo que hice
-            para que puedas comprender y seguir avanzando en tu proyecto.
+            Si avanzamos con esto te voy a pedir envíes tu código, y dentro de un a acordar trabajaré en él, luego de
+            este plazo coordinaremos otra llamada con la intención de explicarte paso a paso que es lo que hice, se
+            trata de una clase privada en relación a tu código para que puedas comprender y seguir avanzando en tu
+            proyecto.
           </p>
           <p>💸El valor de esta segunda etapa dependerá del tipo de trabajo a realizar.</p>
           <h3 className='jobs-text-title-center'>Importante saber:</h3>
           <p>
-            Los temas a tratar en la consultoría deben estar enmarcados dentro de lo que se ve en mi canal de youtube o
-            de las tecnologías que allí se aplican. Esto lo hago para tener las mentorias alineadas con mi canal.
+            Los temas a tratar en la consultoría deben estar enmarcados dentro de lo que se ve en mi{" "}
+            <a className='jobs-text-important' href='https://www.youtube.com/channel/UCrP5xPLzqW3k6ssG8C7lHVw'>
+              canal de YouTube
+            </a>{" "}
+            o de las tecnologías que allí se aplican. Esto lo hago para tener las mentorias alineadas con mi canal.
             Ademas, esas son las tecnologías que utilizo a diario y en las que te voy a poder ayudar. De momento solo se
             aceptan mentorias en proyectos que esten hechos con{" "}
             <span className='jobs-text-important'>Javascript puro o Javascript vanilla</span>. Con el tiempo ire sumando
             mas tecnologías.
           </p>
           <h3 className='jobs-text-title-center'>Entonces, ya puedes agendar una reunion con migo!</h3>
-          <p>Agenda una mentoria en este calendario: </p>
           <p>
-            Para agendar un cita el calendario utiliza paypal como metodo de pago. Si queres agendar una mentoria
-            utilizando otro metodo como Mercado Pago o algún otro, no dudes en contactarme mediante un correo o buscarme
-            en redes para una comunicacion rapida.
+            El valor de la reunión de la primera etapa es de 5$ cinco dólares. Los pagos se re realizan mediante PayPal
+            o Mercado Pago en tu moneda local.
           </p>
+          <p>
+            Si quieres agendar un mentoría envíame un{" "}
+            <a className='jobs-text-important' href='mailto:onthecodenow@gmail.com'>
+              correo
+            </a>{" "}
+            o contactarme mediante{" "}
+            <a className='jobs-text-important' href='https://www.instagram.com/onthecodenow/?next=%2F'>
+              redes sociales
+            </a>{" "}
+            . Voy a estar enviándote un link de pago junto con un calendario para que agendemos un horario para la
+            mentoría.
+          </p>
+          <p> Por cualquier duda también podes escribirme sin ningún compromiso. </p>
           <p>Saludos y nos vemos en la Mentoría!</p>
         </>
       ) : (
@@ -97,28 +112,40 @@ const Mentoring = () => {
             relation to time/work.
           </p>
           <p>
-            If we move forward with this I will ask you to send your code, and within a period of one week I will work
-            on it, after this period we will coordinate another call with the intention of explaining step by step what
-            I did so you can understand and continue advancing in your project.
+            If we move forward with this I will ask you to send your code, and within an agreed period of time I will
+            work on it, after this period of time we will coordinate another call this term we will coordinate another
+            call with the intention of explaining you step by step what I did, it is a private class in relation to your
+            private class in relation to your code so you can understand and continue advancing in your project. project
           </p>
           <p>💸The value of this second stage will depend on the type of work to be performed.</p>
           <h3 className='jobs-text-title-center'>Important to know:</h3>
           <p>
-            The topics to be discussed in the consultancy must be framed within the framework of what is seen in my
-            youtube channel or of the technologies the technologies that are applied there. I do this to have the
-            mentoring aligned with my channel. Besides, these are the are the technologies that I use on a daily basis
-            and in which I will be able to help you. De momento solo se aceptan mentoring in projects that are made with
+            The topics to be discussed in the consultancy must be framed within the framework of what is seen in my{" "}
+            <a className='jobs-text-important' href='https://www.youtube.com/channel/UCrP5xPLzqW3k6ssG8C7lHVw'>
+              Youtube chanel
+            </a>{" "}
+            or of the technologies the technologies that are applied there. I do this to have the mentoring aligned with
+            my channel. Besides, these are the are the technologies that I use on a daily basis and in which I will be
+            able to help you. De momento solo se aceptan mentoring in projects that are made with
             <span className='jobs-text-important'> Pure Javascript or Jascript vanilla </span>. Over time I will be
             adding more technologies.
           </p>
           <h3 className='jobs-text-title-center'>So, you can schedule a meeting with me now!</h3>
-          <p>Schedule a mentorship on this calendar: </p>
+          <p>The value of the first stage meeting is $5 five dollars. Payments are made through PayPal.</p>
           <p>
-            To schedule an appointment the calendar uses paypal as a payment method. If you want to schedule a mentoring
-            using another method another method such as Mercado Pago or any other, feel free to contact me by email or
-            look for me in networks for a quick communication. for a quick communication.
+            If you would like to schedule a mentoring session send me a{" "}
+            <a className='jobs-text-important' href='mailto:onthecodenow@gmail.com'>
+              email
+            </a>{" "}
+            or contact me through{" "}
+            <a className='jobs-text-important' href='https://www.instagram.com/onthecodenow/?next=%2F'>
+              soacial media
+            </a>{" "}
+            . I will be sending you a payment link along with a calendar so we can schedule a mentoring schedule a time
+            for mentoring.
           </p>
-          <p>All the best and see you at the Mentoring!</p>
+          <p> For any questions you can also write me without any commitment. </p>
+          <p>Greetings and see you at the Mentoring!</p>
         </>
       )}
     </div>

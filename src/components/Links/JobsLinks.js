@@ -21,7 +21,7 @@ const JobsLinks = () => {
       <Link to={"/Mentoring&Freelancer"} onClick={handleMentoring} className='buttons-item'>
         {language === "true" ? "Quiero un Mentor" : "I want a Mentor"}
       </Link>
-      <a className='buttons-item' href='mailto:pab.michelini@gmail.com'>
+      <a className='buttons-item' href='mailto:onthecodenow@gmail.com'>
         {language === "true" ? "Quiero enviarte un correo" : "I want to send you an Email"}
       </a>
     </div>
