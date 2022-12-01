@@ -17,7 +17,7 @@ const HeaderLinks = () => {
         </div>
       ) : (
         <div className='links-section-header-container'>
-          <p>Hi! my name is Pablo, I am a Web Developer and Content Creator</p>
+          <p>Hi! my name is Pablo, I am Web Developer and Content Creator</p>
           <p>Here you can find all my links!</p>
         </div>
       )}

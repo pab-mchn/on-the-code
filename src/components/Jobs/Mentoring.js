@@ -85,37 +85,36 @@ const Mentoring = () => {
             space with me to talk in depth about your code.
           </p>
           <h3 className='jobs-text-title-center'>How does it work?</h3>
-          <h4>Part one:</h4>
+          <h4>Part one: general talk</h4>
           <p>
-            First we coordinate a 30 minute meeting via google meet. There we will talk about your project and what you
-            are what you are looking to achieve with it. We will talk in a global way about different ways and ways to
-            achieve your goals. achieve your goals, I will give you some advice in order to guide you on how to move
-            forward. This is an informal chat to get to know each other, talk about technology and about your code.
+            First we coordinate a 30 minute meeting via google meet. There we will talk about your project and what are
+            you are looking to achieve with it. We will talk in a global way about different ways to achieve your goals.
+            I will give you some advice in order to guide you on how to move forward. This is an informal chat to get to
+            know each other, talk about technology and about your code.
           </p>
           <p>
-            🔊 This part is a general talk in which I will advise you, guide you and help you to clear general doubts
+            🔊 This part is a general talk where I will advise you, guide you and help you to clear up general doubts
             about your project.
           </p>
-          <p>❌ In this part we will not resolve bugs in the code nor will we work on adding new functionality.</p>
-          <h4>Part two:</h4>
+          <p>❌ In this part we will not resolve bugs in the code or work on adding new functionality.</p>
+          <h4>Part two: private class</h4>
           <p>
-            In case you want to go further in the mentoring in more depth, we can move on to a second stage. This part
-            will only take place if the following two things are met:
+            In case you would like to go deeper into mentoring, we can move on to a second stage. stage. This part will
+            only happen if the following two things are fulfilled:
           </p>
           <p>
-            a) you want a technical intervention in your project, with this I mean for example: add a feature or fix a
-            bug.
+            a) You want a technical intervention in your project, with this I mean for example: add a functionality or
+            fix a bug.
           </p>
           <p>
             b) That I agree to proceed with this part, for this I will evaluate: availability, time, complexity of the
-            work to be done and different variables in relation to time/work. work to be done and different variables in
-            relation to time/work.
+            work to be done and different variables in relation to time/work.
           </p>
           <p>
-            If we move forward with this I will ask you to send your code, and within an agreed period of time I will
-            work on it, after this period of time we will coordinate another call this term we will coordinate another
-            call with the intention of explaining you step by step what I did, it is a private class in relation to your
-            private class in relation to your code so you can understand and continue advancing in your project. project
+            If we move forward with this I will ask you to send your code, and within a term to be agreed I will work on
+            it. after this deadline we will coordinate another call with the intention of explaining you step by step
+            what I did, this is a private private class in relation to your code so that you can understand and continue
+            advancing in your project.
           </p>
           <p>💸The value of this second stage will depend on the type of work to be performed.</p>
           <h3 className='jobs-text-title-center'>Important to know:</h3>
@@ -124,9 +123,9 @@ const Mentoring = () => {
             <a className='jobs-text-important' href='https://www.youtube.com/channel/UCrP5xPLzqW3k6ssG8C7lHVw'>
               Youtube chanel
             </a>{" "}
-            or of the technologies the technologies that are applied there. I do this to have the mentoring aligned with
-            my channel. Besides, these are the are the technologies that I use on a daily basis and in which I will be
-            able to help you. De momento solo se aceptan mentoring in projects that are made with
+            or the technologies that are applied there. I do this to have the mentorships aligned with my channel.
+            Besides, these are the technologies that I use on a daily basis and in which I will be able to help you. At
+            the moment I only accept only accept mentorships in projects that are made with
             <span className='jobs-text-important'> Pure Javascript or Jascript vanilla </span>. Over time I will be
             adding more technologies.
           </p>
