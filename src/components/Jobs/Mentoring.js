@@ -113,7 +113,7 @@ const Mentoring = () => {
           <p>
             If we move forward with this I will ask you to send your code, and within a term to be agreed I will work on
             it. after this deadline we will coordinate another call with the intention of explaining you step by step
-            what I did, this is a private private class in relation to your code so that you can understand and continue
+            what I did, this is a private class in relation to your code so that you can understand and continue
             advancing in your project.
           </p>
           <p>💸The value of this second stage will depend on the type of work to be performed.</p>
