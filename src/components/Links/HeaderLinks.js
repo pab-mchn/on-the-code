@@ -1,14 +1,12 @@
 import { useState, useContext } from "react";
 import { dataContext } from "../Context/DataContext";
+import img from "../../media/profile_pic.jpg";
 
 const HeaderLinks = () => {
   const { language } = useContext(dataContext);
   return (
     <div className='header-container'>
-      <img
-        src='https://firebasestorage.googleapis.com/v0/b/on-the-code.appspot.com/o/profilepic.jpg?alt=media&token=79fc4df4-7b5e-4c6d-a906-c691540f7809'
-        alt='profile-image'
-      />
+      <img src={img} alt='profile-image' />
       <h1>on the code</h1>
       {language === "true" ? (
         <div className='links-section-header-container'>
