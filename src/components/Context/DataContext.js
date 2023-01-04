@@ -3,20 +3,20 @@ import React, { createContext, useState } from "react";
 export const dataContext = createContext();
 
 const DataProvider = ({ children }) => {
-  const [clickedMentoring, setclickedMentoring] = useState("false");
+  const [clickedProjects, setclickedProjects] = useState("false");
   const [clickedFreelancer, setclickedFreelancer] = useState("false");
   const [optionChosed, setoptionChosed] = useState("true");
   const [language, setLanguage] = useState("true");
 
-  const handleMentoring = () => {
+  const handleProjects = () => {
     setoptionChosed("false");
-    setclickedMentoring("true");
+    setclickedProjects("true");
     setclickedFreelancer("false");
   };
 
   const handleFreelancer = () => {
     setoptionChosed("false");
-    setclickedMentoring("false");
+    setclickedProjects("false");
     setclickedFreelancer("true");
   };
 
@@ -30,9 +30,9 @@ const DataProvider = ({ children }) => {
   return (
     <dataContext.Provider
       value={{
-        clickedMentoring,
-        setclickedMentoring,
-        handleMentoring,
+        clickedProjects,
+        setclickedProjects,
+        handleProjects,
         clickedFreelancer,
         setclickedFreelancer,
         handleFreelancer,

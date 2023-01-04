@@ -6,7 +6,7 @@ const HeaderLinks = () => {
   const { language } = useContext(dataContext);
   return (
     <div className='header-container'>
-      <img src={img} alt='profile-image' />
+      <img src={img} alt='profile' />
       <h1>on the code</h1>
       {language === "true" ? (
         <div className='links-section-header-container'>

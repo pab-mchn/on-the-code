@@ -1,14 +1,14 @@
 import { useContext } from "react";
 import { dataContext } from "../Context/DataContext";
 
-const Freelancer = () => {
+const Projects = () => {
   const { language } = useContext(dataContext);
   return (
     <div className='jobs-text-container'>
       {language === "true" ? (
         <>
           <div className='jobs-text-freelancer-title'>
-            <h3>Como desarrollador Freelancer me voy a encargar de cumplir tus objetivos al Máximo</h3>
+            <h3>Pronto vas a poder encontrar aquí todos mis proyectos</h3>
           </div>
           <div className='jobs-text-freelancer-container'>
             <h4>Para contactarme puedes:</h4>
@@ -33,7 +33,7 @@ const Freelancer = () => {
         </>
       ) : (
         <>
-          <h3>As a Freelancer developer I will take care of meeting your goals to the maximum</h3>
+          <h3>Soon you will be able to find all my projects here</h3>
           <div className='jobs-text-freelancer-container'>
             <h4>To contact me you can:</h4>
             <p>
@@ -60,4 +60,4 @@ const Freelancer = () => {
   );
 };
 
-export default Freelancer;
+export default Projects;

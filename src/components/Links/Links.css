@@ -35,7 +35,7 @@ body {
 }
 .buttons-item {
   display: inline-block;
-  color: #fff;
+  color: #1e1f1f;
   padding: 14px 24px;
   background: #ead430;
   transition: 0.3s ease;
@@ -44,6 +44,7 @@ body {
   font-size: 20px;
   margin-top: 10px;
   width: 50%;
+  font-weight: bold;
 }
 .buttons-item:hover {
   background: #fcde00;

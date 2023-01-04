@@ -1,15 +1,15 @@
 import { useContext } from "react";
 import { dataContext } from "../Context/DataContext";
-import Mentoring from "../Jobs/Mentoring";
 import Freelancer from "../Jobs/Freelancer";
 import Banner from "../Banner/Banner";
 import FooterLinks from "../Links/FooterLinks";
+import Projects from "./Projects";
 import LanguageButtons from "../LanguageButtons/LanguageButtons";
 
 import "./Jobs.css";
 
 const Jobs = () => {
-  const { clickedMentoring, clickedFreelancer, handleMentoring, handleFreelancer, optionChosed, language } = useContext(
+  const { clickedProjects, clickedFreelancer, handleProjects, handleFreelancer, optionChosed, language } = useContext(
     dataContext
   );
   return (
@@ -18,22 +18,22 @@ const Jobs = () => {
       <LanguageButtons />
       {optionChosed === "true" && (
         <div className='jobs-text-container'>
-          <h2 className='jobs-text-title-center'>Mentor 🤹 Freelancer</h2>
+          <h2 className='jobs-text-title-center'>Freelancer</h2>
         </div>
       )}
       <div className='container-buttons'>
-        <button
-          onClick={handleMentoring}
-          className={clickedMentoring === "true" ? "pressed-jobs-buttons" : "container-buttons-btn-gradient"}>
-          {language === "true" ? "Quiero un Mentor" : "I want a Mentor"}
-        </button>
         <button
           onClick={handleFreelancer}
           className={clickedFreelancer === "true" ? "pressed-jobs-buttons" : "container-buttons-btn-gradient"}>
           {language === "true" ? "Quiero un Freelancer" : "I want a Freelancer"}
         </button>
+        <button
+          onClick={handleProjects}
+          className={clickedProjects === "true" ? "pressed-jobs-buttons" : "container-buttons-btn-gradient"}>
+          {language === "true" ? "Quiero ver tus proyectos" : "I want to see your projects"}
+        </button>
       </div>
-      {clickedMentoring === "true" && <Mentoring />}
+      {clickedProjects === "true" && <Projects />}
       {clickedFreelancer === "true" && <Freelancer />}
       <FooterLinks />
     </>

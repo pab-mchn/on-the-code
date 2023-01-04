@@ -43,15 +43,21 @@
 .jobs-text-container {
   color: #fff;
   text-align: left;
-  margin-left: 45px;
-  margin-right: 45px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-top: 5rem;
 }
 
-.jobs-text-title-center {
-  text-align: center;
-}
 .jobs-text-freelancer-container {
   margin-top: 50px;
+}
+
+.jobs-text-freelancer-title {
+  text-align: center;
+}
+.jobs-text-title-center {
+  text-align: center;
+  margin-top: 7rem;
 }
 .jobs-text-important {
   color: #ead430;
