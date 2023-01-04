@@ -1,4 +1,4 @@
-import { useState, useContext } from "react";
+import { useContext } from "react";
 import { dataContext } from "../Context/DataContext";
 
 import "./LanguageButtons.css";
