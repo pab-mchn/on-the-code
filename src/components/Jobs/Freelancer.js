@@ -7,9 +7,7 @@ const Freelancer = () => {
     <div className='jobs-text-container'>
       {language === "true" ? (
         <>
-          <div className='jobs-text-freelancer-title'>
-            <h3>Como desarrollador Freelancer me voy a encargar de cumplir tus objetivos al Máximo</h3>
-          </div>
+          <h3>Como desarrollador Freelancer me voy a encargar de cumplir tus objetivos al Máximo</h3>
           <div className='jobs-text-freelancer-container'>
             <h4>Para contactarme puedes:</h4>
             <p>
